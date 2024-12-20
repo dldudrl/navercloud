@@ -55,7 +55,7 @@ public class AxiosRestController {
 	public List<Board> axios03(@RequestBody String data) {
 		// 1. 데이터 수집
 		// post 방식으로 데이터를 받아올 때, 만약 이름값이 정해지지 않았다면
-		// >> 수집할 변수 앞에 @ResponseBody 어노테이션을 붙인다.
+		// >> 수집할 변수 앞에 @RequestBody 어노테이션을 붙인다.
 
 		// csv, xml, json (자바스크립트 입장에서 필요한 것이라 많이 사용)
 		System.out.println(data);
